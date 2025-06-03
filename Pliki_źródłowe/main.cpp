@@ -30,7 +30,7 @@ vector<pair<int, int>> generuj_dane(int rozmiar) {
     }
     return dane;
 }
-//Test
+
 // Funkcja zapisująca wynik pomiaru czasu do pliku CSV
 void zapisz_csv(ofstream& plik, int rozmiar, const string& operacja, long long czas_ns) {
     plik << rozmiar << ";" << operacja << ";" << czas_ns << "\n";
